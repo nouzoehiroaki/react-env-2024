@@ -11,7 +11,7 @@ function TextInput() {
         onChange={(e) => setText(e.target.value)}
         aria-label='Text Input'
       />
-      <p>Enterd Text: {text}</p>
+      <p>Entered Text: {text}</p>
     </div>
   );
 }
